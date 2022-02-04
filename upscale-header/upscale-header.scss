@@ -8,10 +8,12 @@ $row-height: 54px;
 	width: 100%;
 	display: block;
 	box-shadow: 0 7px 100vh 0 #00000029;
-	background: #005CC4;
+	background: #98c5ea;
 	min-height: $row-height;
 	z-index: 4;
-
+	a {
+		background-color: #98c5ea;
+	}
 	.header {
 		&__top {
 			display: flex;
@@ -40,7 +42,7 @@ $row-height: 54px;
 			align-items: center;
 		}
 		&__hamburger {
-			@include button($background-color: black);
+			@include button($background-color: #98c5ea);
 			box-sizing: border-box;
 			display: flex;
 			align-items: center;
