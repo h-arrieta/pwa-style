@@ -1,7 +1,9 @@
 @import '~styles/helpers/_module';
 
 $row-height: 54px;
-
+a {
+	background-color: #98c5ea !important;
+}
 :host {
 	position: sticky;
 	top: 0;
@@ -32,9 +34,6 @@ $row-height: 54px;
 
 			&-navbar {
 				display: block;
-				a {
-					background-color: #98c5ea !important;
-				}
 			}
 		}
 		&__top-left {
