@@ -11,9 +11,7 @@ $row-height: 54px;
 	background: #98c5ea;
 	min-height: $row-height;
 	z-index: 4;
-	a {
-		background-color: #98c5ea;
-	}
+	
 	.header {
 		&__top {
 			display: flex;
@@ -34,6 +32,9 @@ $row-height: 54px;
 
 			&-navbar {
 				display: block;
+				a {
+					background-color: #98c5ea !important;
+				}
 			}
 		}
 		&__top-left {
